@@ -8,6 +8,8 @@
 def join(a: str, b: str) -> str:
     return a + ' ' + b
 # Do not change the below's code
+
+
 if __name__ == "__main__":
     a, b = "Jon", "Doe"
 
