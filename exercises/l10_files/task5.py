@@ -2,6 +2,7 @@ from pathlib import Path
 
 L10_PATH = Path(__file__).parent
 
+
 # Write the function. It should read the content of a file
 # under path and return the content as a string.
 #
@@ -9,7 +10,8 @@ L10_PATH = Path(__file__).parent
 #
 # HINT. Don't forget to close file
 def read(path: Path) -> str:
-    pass
+    with open(path, mode="r") as file:
+        return file.read()
 
 
 # Do not modify the code below
