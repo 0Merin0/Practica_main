@@ -3,7 +3,10 @@
 # equals the last character of the string `s`;
 # return False otherwise
 def same_chars(s: str) -> bool:
-    pass
+    if s[0] == s[-1]:
+        return True
+    else:
+        return False
 
 
 # Do not change the below's code
