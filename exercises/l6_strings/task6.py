@@ -1,7 +1,9 @@
 # Write a function that removes any whitespaces
 # from string `s`
 def clean(s: str) -> str:
-    pass
+    d = s.split()
+    res = "".join(d)
+    return res
 
 
 # Do not change the below's code
