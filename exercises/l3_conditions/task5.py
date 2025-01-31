@@ -1,6 +1,10 @@
 # Write the body of the function to make the script work without errors
 def is_vowel(c: str) -> bool:
-    pass
+    if c in ["a", "e", "o", "i", "u", "A", "E", "O", "I", "U"]:
+        return True
+    else:
+        return False
+
 
 if __name__ == "__main__":
     # Do not change the below asserts
