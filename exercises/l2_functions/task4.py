@@ -3,6 +3,10 @@
 # and return its length
 
 
+def my_len(iterable) -> int:
+    return len(iterable)
+
+
 # Do not change the below's code
 if __name__ == "__main__":
     assert my_len([3, 4, 5]) == 3
