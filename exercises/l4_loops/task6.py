@@ -1,7 +1,11 @@
 # Use `for` loop to count all occurrence of character `c`
 # in a string `s`.
 def count_char(s: str, c: str) -> int:
-    pass
+    res = 0
+    for letter in s:
+        if letter == c:
+            res += 1
+    return res
 
 
 # Do not change the below's code
