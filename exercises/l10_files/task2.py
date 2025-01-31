@@ -6,7 +6,8 @@ L10_PATH = Path(__file__).parent
 # The function should create the directory with name `name`
 # inside the `L10_PATH` directory
 def create_directory(name: str):
-    pass
+    res = L10_PATH / name
+    res.mkdir()
 
 
 # Do not modify the code below
