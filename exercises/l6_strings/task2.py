@@ -8,8 +8,7 @@
 def take(s: str, n: int) -> str:
     if n <= 0:
         return ""
-    else:
-        return s[:n]
+    return s[:n]
 
 
 # Do not change the below's code
